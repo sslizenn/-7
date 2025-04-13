@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.block {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.inline {
+    display: inline;
+    background-color: lightcoral;
+    padding: 5px;
+}
+
+.box-sizing {
+    width: 200px;
+    height: 100px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.float {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.overflow {
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.relative {
+    position: relative;
+    left: 20px;
+    background-color: pink;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: orange;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: purple;
+    color: white;
+    padding: 5px;
+}
